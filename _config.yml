@@ -16,7 +16,7 @@
 
 # ---- 1、基本配置
 
-title: Your awesome Blog # 你的博客名称，如：唐太宗的博客，以下配置如无特别说明，英文中文都OK
+title: Leaschalk # 你的博客名称，如：唐太宗的博客，以下配置如无特别说明，英文中文都OK
 SEOTitle: XXX Blog # 这个是显示在浏览器Tab上的标题，如未指定该配置参数，系统会默认显示上面的title
 header-img: img/tag-bg.jpg # 这个定义了博客首页的顶部背景图，可以根据自己的喜好，设置不同的图
 email: your-email@example.com # 你的邮箱，如：84787843@qq.com，右边头像栏底下显示
@@ -30,7 +30,7 @@ github_repo: "https://github.com/<your-name>/<your-name>.github.io.git"
 # ---- 2、侧边栏配置
 
 sidebar: true # 是否使用侧边栏（头像，简介...），看个人喜好吧，我这里启用
-sidebar-about-description: "Write yourself description" # 你的简介，如果上面设置false，这里可不填
+sidebar-about-description: "Hi. My name is Lea. " # 你的简介，如果上面设置false，这里可不填
 sidebar-avatar: /img/your_head_icon.png # 你的头像图片的地址
 
 # ---- 3、社交账号配置
