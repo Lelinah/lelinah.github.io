@@ -55,7 +55,7 @@ featured-condition-size: 1        # if mentioned once or more, tag will be liste
 
 #Intrests
 
-Intrests: [
+interests: [
     {
         title: "Fashion",              # name to be displaces
        # href: "http://foo.github.io/"   # link to other blog
@@ -72,6 +72,15 @@ Intrests: [
     }
 
     # if adding more: syntax needs "," after last "}"
+]
+
+#New posts 
+
+newPosts: [
+        {
+            post:                 # Name of newest post
+        },
+            post:                 # Name of second newest post
 ]
 
 # ---- 4、build the configuration

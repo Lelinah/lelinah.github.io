@@ -157,13 +157,12 @@ layout: default
                 {% endif %}
 
                 <!-- Interests -->
-                {% if site.Interests %}
+                {% if site.interests %}
                 <hr>
-                <h5>Interests</h5>
+                <h5>INTERESTS</h5>
                 <ul class="list-inline">
-                    {% for Interests in site.Interests %}
-                        <li><a {{friend.title}}</a></li>
-                               <!-- href="{{friend.href}}"> -->
+                    {% for interest in site.interests %}
+                        <li><a {{interest.title}}</a></li>
                     {% endfor %}
                 </ul>
                 {% endif %}
