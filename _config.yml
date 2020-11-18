@@ -52,6 +52,11 @@ instagram_username:   lelinahsblog  # Instagram
 featured-tags: true               # use or dont use homepage tags
 featured-condition-size: 1        # if mentioned once or more, tag will be listed on right side ofe Home-page
 
+#collection of postst: projects
+collections:
+  projects:
+    output: true
+
 #Intrests
 
 interests: [
