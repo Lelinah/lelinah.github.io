@@ -1,18 +1,23 @@
 ---
 layout: page
-description: "这里替换成你自己的座右铭"
+description: "Learn continually - there's always \"one more thing\" to lean -- Steve Jobs"
 ---
+<div class="Welcome">
+    <h2> WELCOME</h2>
+    <p> Welcome text </p>
+</div>
 
+<h2> New Posts </h2>
 {% for post in paginator.posts %}
 <div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+        <h5 class="post-title">
             {{ post.title }}
-        </h2>
+        </h5>
         {% if post.subtitle %}
-        <h3 class="post-subtitle">
+        <h5 class="post-subtitle">
             {{ post.subtitle }}
-        </h3>
+        </h5>
         {% endif %}
         <div class="post-content-preview">
             {{ post.content | strip_html | truncate:200 }}
