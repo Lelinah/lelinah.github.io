@@ -82,13 +82,13 @@ layout: default
                 </ul>
 
 
-                <!--Gitalk评论start  -->
+                <!--Gitalk review start  -->
                 {% if site.gitalk.enable %}
-                <!-- 引入Gitalk评论插件  -->
+                <!-- Introducing the Gitalk review plug  -->
                 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
                 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
                 <div id="gitalk-container"></div>
-                <!-- 引入一个生产md5的js，用于对id值进行处理，防止其过长 -->
+                <!-- Introducing a production md5js to handle id values and prevents them from being too long-->
                 <!-- Thank DF:https://github.com/NSDingFan/NSDingFan.github.io/issues/3#issuecomment-407496538 -->
                 <script src="{{ site.baseurl }}/js/md5.min.js"></script>
                 <script type="text/javascript">
@@ -107,11 +107,11 @@ layout: default
                 <!-- Gitalk end -->
 
                 {% if site.disqus_username %}
-                <!-- disqus 评论框 start -->
+                <!-- disqus comment Box start -->
                 <div class="comment">
                     <div id="disqus_thread" class="disqus-thread"></div>
                 </div>
-                <!-- disqus 评论框 end -->
+                <!-- disqus comment Box end -->
                 {% endif %}
 
             </div>  
@@ -156,13 +156,14 @@ layout: default
                 </section>
                 {% endif %}
 
-                <!-- Friends Blog -->
-                {% if site.friends %}
+                <!-- Interests -->
+                {% if site.Interests %}
                 <hr>
-                <h5>FRIENDS</h5>
+                <h5>Interests</h5>
                 <ul class="list-inline">
-                    {% for friend in site.friends %}
-                        <li><a href="{{friend.href}}">{{friend.title}}</a></li>
+                    {% for Interests in site.Interests %}
+                        <li><a {{friend.title}}</a></li>
+                               <!-- href="{{friend.href}}"> -->
                     {% endfor %}
                 </ul>
                 {% endif %}
@@ -173,7 +174,7 @@ layout: default
 
 
 {% if site.disqus_username %}
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<!-- disqus public js code start ( a page is inserted only once) -->
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "{{site.disqus_username}}";
