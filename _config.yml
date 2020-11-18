@@ -17,7 +17,6 @@
 # ---- 1. basic configuration
 
 title: Lelinahs-Blog # Blog-Name
-titleHome: What can you learn in 30 days? # Title on Home-page
 SEOTitle: Lelinahs-Blog # Browser Registerkarten titel
 header-img: img/tag-bg.jpg # Hintergrung Bildung auf Home-page
 email: schalk.lea@gmail.com # Email wird im About Me bereich angeziegt
