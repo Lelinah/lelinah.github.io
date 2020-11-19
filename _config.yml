@@ -119,9 +119,10 @@ service-worker: true
 # commenting section is not jet enabled, availabe in "commenting System" section in README
 # Gitalk
 gitalk:
+  enable: true
   clientID: e2eded4437b43595fffb # cliendID github Application
   clientSecret: 828d8ac74f00f874e70dd182f6f9d754f9b5f364 #cliendSecret aus OAuth github
-  repository: blog-comments # storage gittalk's repository
+  repo: lelinah.github.io # storage gitalk's repository
   owner: Lelinah # repo wpner
   admin: Lelinah # repo woner and collaborators, only these guys can initialize github issues
 
