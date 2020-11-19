@@ -81,36 +81,18 @@ layout: default
                 col-xs-12
                 sidebar-container
             ">
-                <!-- Featured Tags -->
-                {% if site.featured-tags %}
-                <section>
-                    <hr class="hidden-sm hidden-xs">
-                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
-                    <div class="tags">
-                        {% for tag in site.tags %}
-                        {% if tag[1].size > site.featured-condition-size %}
-                        <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
-                            {{ tag[0] }}
-                        </a>
-                        {% endif %}
-                        {% endfor %}
-                    </div>
-                </section>
-                {% endif %}
-
                 <!-- Short About -->
                 <section class="visible-md visible-lg">
-                    <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
+                    <hr><h5>ABOUT ME</h5>
                     <div class="short-about">
                         {% if site.sidebar-avatar %}
-                        <a href="{{ site.baseurl }}/about">
                             <img src="{{site.sidebar-avatar}}" />
-                        </a>
                         {% endif %}
                         {% if site.sidebar-about-description %}
                         <p>{{site.sidebar-about-description}}</p>
                         {% endif %}
                         <!-- SNS Link -->
+                        <h5> LET'S STAY CONECTED</h5>
                         <ul class="list-inline">
                             {% if site.RSS %}
                             <li>
@@ -129,6 +111,16 @@ layout: default
                                     <span class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                         <i class="fa  fa-stack-1x fa-inverse">简</i>
+                                    </span>
+                                </a>
+                            </li>
+                            {% endif %}
+                            {%if site.instagram_username %}
+                            <li>
+                                <a href="https://instagram.com/{{ site.instagram_username }}">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
@@ -163,7 +155,7 @@ layout: default
                                 </a>
                             </li>
                             {% endif %}
-                            {% if site.facebook_username %}
+                            {% if site.facebook_username %} <!-- manipulierst damit nicht erschient-->
                             <li>
                                 <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
                                     <span class="fa-stack fa-lg">
@@ -183,23 +175,49 @@ layout: default
                                 </a>
                             </li>
                             {% endif %}
+                            {% if site.linkedin_username %}
+                            <li>
+                                <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            {% endif %}
 
                         </ul>
                         {% if site.email %}
-                        <p>✉️ {{site.email}}</p>
+                        <p><!--✉️--> {{site.email}}</p>
                         {% endif %}
                     </div>
                 </section>
-                <!-- interests -->
-                {% if site.interests %}
-                <hr>
-                <h5>INTERESTS</h5>
-                <ul class="list-inline">
-                    {% for interest in site.interests %}
-                    <li><a>{{interest.title}}</a></li>
-                    {% endfor %}
-                </ul>
+                <!-- Featured Tags -->
+                {% if site.featured-tags %}
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TOPPICS</a></h5>
+                    <div class="tags">
+                        {% for tag in site.tags %}
+                        {% if tag[1].size > site.featured-condition-size %}
+                        <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+                            {{ tag[0] }}
+                        </a>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </section>
                 {% endif %}
+                <!-- interests
+    {% if site.interests %}
+    <hr>
+    <h5>INTERESTS</h5>
+    <ul class="list-inline">
+        {% for interest in site.interests %}
+        <li><a>{{interest.title}}</a></li>
+        {% endfor %}
+    </ul>
+    {% endif %} -->
             </div>
         {% endif %}
 	</div>

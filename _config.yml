@@ -25,8 +25,8 @@ keyword: "Learning, Inspiration, Fashion, Food, Languages, Diversity, Start, Pro
 url: "http://lelinah.github.io" # Git hub name des Repo-Kontos
 baseurl: "" # can be ignored：for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/lelinah/lelinah.github.io.git" # voller Name des GitHub repository, unbedingt .git hinzufügen
-clientID: e2eded4437b43595fffb #cliedID aus OAuth github
-clientSecret: 828d8ac74f00f874e70dd182f6f9d754f9b5f364 #cliendSecret aus OAuth github
+
+
 
 
 # ---- 2、sidebar configuration
@@ -50,8 +50,8 @@ instagram_username:   lelinahsblog  # Instagram
 # featured Tags
 
 featured-tags: true               # use or dont use homepage tags
-featured-condition-size: 1        # if mentioned once or more, tag will be listed on right side ofe Home-page
-
+featured-condition-size: 0        # if mentioned once or more, tag will be listed on right side ofe Home-page
+featured-condition-size-2: 1
 #collection of postst: projects
 collections:
   projects:
@@ -117,6 +117,13 @@ service-worker: true
 # ---- 5、plug-in configurations (may require some programming knowlege, but try it) 
 
 # commenting section is not jet enabled, availabe in "commenting System" section in README
+# Gitalk
+gitalk:
+  clientID: e2eded4437b43595fffb # cliendID github Application
+  clientSecret: 828d8ac74f00f874e70dd182f6f9d754f9b5f364 #cliendSecret aus OAuth github
+  repository: blog-comments # storage gittalk's repository
+  owner: Lelinah # repo wpner
+  admin: Lelinah # repo woner and collaborators, only these guys can initialize github issues
 
 # Disqus（https://disqus.com/）
 # disqus_username: zhangsan
