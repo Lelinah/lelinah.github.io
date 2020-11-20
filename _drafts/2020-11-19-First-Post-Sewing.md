@@ -13,7 +13,7 @@ tags:
   - Fashion
   - DIY
 ---
-> funktioniert es so?: qote strich
+> funktioniert es so?: quote strich
 
 ## Überschrift
 
@@ -23,7 +23,3 @@ tags:
 
 ![](link)zum Bild einfügen
 
-
-
-The stroy of how I learned sewing
-hallo was los?

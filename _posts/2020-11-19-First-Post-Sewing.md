@@ -5,7 +5,7 @@ subtitle: Introduction
 date: 2020-11-18
 author: Lelinah
 header-img: img/post-bg-coffee.jpeg
-project_title: sewing
+project_title: Getting Acquainted With The Sewing Machine
 catalog: true
 tags:
   - Sewing
@@ -13,7 +13,7 @@ tags:
   - Fashion
   - DIY
 ---
-> funktioniert es so?: qote strich
+> funktioniert es so?: quote strich
 
 ## Überschrift
 
@@ -23,7 +23,3 @@ tags:
 
 ![](link)zum Bild einfügen
 
-
-
-The stroy of how I learned sewing
-hallo was los?
