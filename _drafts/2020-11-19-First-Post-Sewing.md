@@ -5,7 +5,7 @@ subtitle: Introduction
 date: 2020-11-18
 author: Lelinah
 header-img: img/post-bg-coffee.jpeg
-project_title: sewing
+project_title: Getting Acquainted With The Sewing Machine
 catalog: true
 tags:
   - Sewing
