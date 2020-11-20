@@ -89,10 +89,17 @@ layout: default
                             <img src="{{site.sidebar-avatar}}" />
                         {% endif %}
                         {% if site.sidebar-about-description %}
-                        <p>{{site.sidebar-about-description}}</p>
+                            <p>
+                                I'm Lelinah, the owner of this blog.
+                                I am a german student, born 1999.
+                                My field of studies is engineering so one or the other spelling faux pas (lol...just had to google how to write that) is not unlikely. Sorry about that! My mother tongue is German, but I lived in the US for 5 years so I'm pretty confident with writing in English.
+                                That doesn't mean I wound through in some German sayings here and there if they fit " wie die Faust auf's Auge". I mean, if they fit perfectly. I've always switched between sports and after school activities when I was young so I'm not really an expert in anything, but more going for that multi-talent thing, you know? So this blog is the perfect opportunity for me to live out that lifestyle.
+                                Nice to meet you and I hope you enjoy!
+                                Oh and don't hesitate to contact me.
+                            </p>
                         {% endif %}
                         <!-- SNS Link -->
-                        <h5> LET&thinsp;'S STAY CONECT&thinsp;ED</h5>
+                        <h5> LET&thinsp;'S STAY CONECTED</h5>
                         <ul class="list-inline">
                             {% if site.RSS %}
                             <li>
@@ -196,7 +203,7 @@ layout: default
                 {% if site.featured-tags %}
                 <section>
                     <hr class="hidden-sm hidden-xs">
-                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TOPPICS</a></h5>
+                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TOPICS</a></h5>
                     <div class="tags">
                         {% for tag in site.tags %}
                         {% if tag[1].size > site.featured-condition-size %}

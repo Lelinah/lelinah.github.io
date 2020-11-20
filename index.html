@@ -3,15 +3,23 @@ layout: page
 title: "What can you learn in 30 days?"
 description: "Learn continually - there's always \"one more thing\" to learn        &mdash; Steve Jobs"
 ---
-<div class="Welcome">
-    <h1> WELCOME</h1>
-    <p> Welcome text </p>
-</div>
+<h2> WELCOME </h2>
+<p>
+    I'm Lelinah and I want to welcome you to my blog.<br>
+    <em>What can you learn in 30 days?</em> &mdash;
+    The basic idea of this blog is to give you an inside into my monthly Learning Missions.
+    At the beginning of each month, I will choose a new skill to learn.
+    In regular posts, you can watch me <strong>struggle</strong>, <strong>curse</strong>, and <strong>fail</strong>, but hopefully, also <strong>grow</strong> with each challenge.
+    Besides that, I will also explain and list, which <strong>methods</strong>, <strong>tools</strong>, <strong>websites</strong>, and other things I used to improve the chosen skills.
+    So every post will be part of a series of posts, belonging to a bigger Mission. You can find all of these Missions by clicking the "How it's going" button in the right top corner.
+    On the "How it started" side you will find out more about my motivation and my hopes and plans for this blog.
+    If you are interested in what I am working on right now, go check out my newest posts below!
+</p>
 
-<h2> New Posts </h2>
+<h2> NEW POSTS </h2>
 {% for post in paginator.posts %}
 <div class="post-preview">
-        <a href="{{ post.url | prepend: site.baseurl }}">
+    <a href="{{ post.url | prepend: site.baseurl }}">
         <h5 class="post-title">
             {{ post.title }}
         </h5>
