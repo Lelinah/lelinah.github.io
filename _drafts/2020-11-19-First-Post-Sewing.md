@@ -1,18 +1,17 @@
 ---
 layout: post
-title: First post sewing
-subtitle: bliblablub
+title: "Minimal cost, perfect fits: I should learn sewing!"
+subtitle: Introduction
 date: 2020-11-18
 author: Lelinah
 header-img: img/post-bg-coffee.jpeg
 project_title: sewing
 catalog: true
 tags:
-  - sewing
-  - crafiting
-  - fashion
+  - Sewing
+  - Crafiting
+  - Fashion
   - DIY
-  - test
 ---
 > funktioniert es so?: qote strich
 

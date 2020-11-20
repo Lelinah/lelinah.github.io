@@ -19,8 +19,8 @@
 title: Lelinahs-Blog # Blog-Name
 SEOTitle: Lelinahs-Blog # Browser Registerkarten titel
 header-img: img/tag-bg.jpg # Hintergrung Bildung auf Home-page
-email: schalk.lea@gmail.com # Email wird im About Me bereich angeziegt
-description: Quote learning # Blog-Beschreibung wird nicht angezeigt
+email: lelinahs.blog@gmail.com # Email wird im About Me bereich angeziegt
+description: Blog about learning different things # Blog-Beschreibung wird nicht angezeigt
 keyword: "Learning, Inspiration, Fashion, Food, Languages, Diversity, Start, Progresss, Personal Growth" # Index-Schlüssel Wörter des Blogs
 url: "http://lelinah.github.io" # Git hub name des Repo-Kontos
 baseurl: "" # can be ignored：for example, '/blog' if your blog hosted on 'host/blog'

@@ -26,14 +26,16 @@ nav_title: How it's going
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 			<!-- Projekt list -->
 			<div class="zh post-container">
-				<h1> Past and Current Projects </h1>
+				<h1> Here you can find what I've been up to: </h1>
 				<ul>
 					{% for project in site.projects %}
+					{% if project.started %}
 					<div class=""
 					<li>
 						<a href="{{ project.url | prepend: site.baseurl }}"><h5>{{ project.project_title }}</h5></a>
 					</li>
-				{% endfor %}
+					{% endif %}
+				    {% endfor %}
 				</ul>
 			</div>
 			<!-- Tag cloud -->
