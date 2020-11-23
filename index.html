@@ -1,46 +1,56 @@
 ---
-layout: page
+layout: page2
 title: "What can you learn in 30 days?"
-description: "Learn continually - there's always \"one more thing\" to learn        &mdash; Steve Jobs"
+description: "Learn continually &ndash; there's always \"one more thing\" to learn  &nbsp;&nbsp;&ndash; &nbsp;Steve Jobs"
 ---
-<h2> WELCOME </h2>
+
+
+
+<p> </p>
+<h1> WELCOME </h1>
 <p>
-    I'm Lelinah and I want to welcome you to my blog.<br>
-    <em>What can you learn in 30 days?</em> &mdash;
-    The basic idea of this blog is to give you an inside into my monthly Learning Missions.
-    At the beginning of each month, I will choose a new skill to learn.
-    In regular posts, you can watch me <strong>struggle</strong>, <strong>curse</strong>, and <strong>fail</strong>, but hopefully, also <strong>grow</strong> with each challenge.
-    Besides that, I will also explain and list, which <strong>methods</strong>, <strong>tools</strong>, <strong>websites</strong>, and other things I used to improve the chosen skills.
-    So every post will be part of a series of posts, belonging to a bigger Mission. You can find all of these Missions by clicking the "How it's going" button in the right top corner.
-    On the "How it started" side you will find out more about my motivation and my hopes and plans for this blog.
+    <blockquote>What can you learn in 30 days?</blockquote>
+    The anser is "a lot", you just have to start investing in yourself. <br>
+    Hello and welcome to Lelinahs-Blog, my name is Lelinah. <br>
+    Let me tell you what I am doing here.
+    The basic idea of this blog is to give you, there readers, an inside into my monthly learning progress.
+    At the beginning of each month, I will choose a new project, a new skill to learn.<br>
+    In regular updates, you can see me struggle, curse, and fail, but hopefully, also grow with each challenge.
+    Besides that, I will also explain and list, which methods, tools, websites, and other things I used to improve the chosen skill and share with you what I've learned.
+    So every post will be part of a series of posts, belonging to a bigger project.<br>
+    You can find all of these projects by clicking the "How it's going" button in the right top corner.
+    On the "How it started" side you will find out more about my motivation and my hopes and plans for this blog.<br>
     If you are interested in what I am working on right now, go check out my newest posts below!
 </p>
 
-<h2> NEW POSTS </h2>
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h5 class="post-title">
-            {{ post.title }}
-        </h5>
-        {% if post.subtitle %}
-        <h5 class="post-subtitle">
-            {{ post.subtitle }}
-        </h5>
-        {% endif %}
-        <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:200 }}
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-</div>
-<hr>
-{% endfor %}
 
+
+<section>
+    <h2> NEW POSTS </h2>
+    {% for post in paginator.posts %}
+    <div class="post-preview">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+            <h5 class="post-title">
+                {{ post.title }}
+            </h5>
+            {% if post.subtitle %}
+            <h5 class="post-subtitle">
+                {{ post.subtitle }}
+            </h5>
+            {% endif %}
+            <div class="post-content-preview">
+                {{ post.content | strip_html | truncate:200 }}
+            </div>
+        </a>
+        <p class="post-meta">
+            Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+        </p>
+    </div>
+    <hr>
+    {% endfor %}
+</section>
 <!-- Pager -->
-{% if paginator.total_pages > 1 %}
+    {% if paginator.total_pages > 1 %}
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
@@ -53,4 +63,5 @@ description: "Learn continually - there's always \"one more thing\" to learn    
     </li>
     {% endif %}
 </ul>
-{% endif %}
+    {% endif %}
+

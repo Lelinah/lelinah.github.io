@@ -1,4 +1,4 @@
-@media (min-width:1200px)
+@media (min-width:2400px)
     {.post-container,.sidebar-container{padding-right:5%}}
 @media (min-width:768px)
     {.post-container{padding-right:5%}}
@@ -9,7 +9,7 @@
     .sidebar-container a:hover,.sidebar-container a:active{color:#0085a1!important}
     .sidebar-container .tags a{border-color:#bfbfbf}
     .sidebar-container .tags a:hover,.sidebar-container .tags a:active{border-color:#0085a1}
-    .sidebar-container .short-about img{width:80%;display:block;border-radius:5px;margin-bottom:20px}
+    .sidebar-container .short-about img{width:80%;display:block;border-radius:5px;margin: 0 auto; margin-bottom:20px}
     .sidebar-container .short-about p{margin-top:0;margin-bottom:20px}
     .sidebar-container .short-about .list-inline>li{padding-left:0}
     .catalog-container{padding:0}
@@ -51,7 +51,7 @@
     .post-container a{color:#337ab7}
     .post-container a:hover,.post-container a:focus{color:#0085a1}
     .post-container h1,.post-container h2,.post-container h3,.post-container h4,.post-container h5,.post-container h6{margin:30px 0 10px}
-    .post-container h5{font-size:19px;font-weight:600;color:gray}
+    .post-container h5{font-size:19px;color:gray}
     .post-container h5+p{margin-top:5px}
     .post-container h6{font-size:16px;font-weight:600;color:gray}
     .post-container h6+p{margin-top:5px}

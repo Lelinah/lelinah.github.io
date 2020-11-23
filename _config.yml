@@ -32,6 +32,7 @@ github_repo: "https://github.com/lelinah/lelinah.github.io.git" # voller Name de
 # ---- 2、sidebar configuration
 
 sidebar: true # if u eant sidebar or not
+sidebarAbout: true
 sidebar-about-description: "Hi. My name is Lea. " # a dicription about yourself
 sidebar-avatar: /img/my_head_icon.png # location of avatar image
 
