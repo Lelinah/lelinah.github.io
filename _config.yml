@@ -22,7 +22,7 @@ header-img: img/tag-bg.jpg # Hintergrung Bildung auf Home-page
 email: lelinahs.blog@gmail.com # Email wird im About Me bereich angeziegt
 description: Blog about learning different things # Blog-Beschreibung wird nicht angezeigt
 keyword: "Learning, Inspiration, Fashion, Food, Languages, Diversity, Start, Progresss, Personal Growth" # Index-Schlüssel Wörter des Blogs
-url: "http://lelinah.github.io" # Git hub name des Repo-Kontos
+url: "http://lelinahs-blog.com" # Git hub name des Repo-Kontos
 baseurl: "" # can be ignored：for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/lelinah/lelinah.github.io.git" # voller Name des GitHub repository, unbedingt .git hinzufügen
 
