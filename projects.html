@@ -46,10 +46,10 @@ nav_title: How it's going
 			</div>
 
 			<!--<blockquote class="tag-comments">
-		Label naing possibilities：
-			<li>chinese for industry observation, jobs, and companies</li>
-			<li>Forgein products, terminology preffered in English</li>
-	</blockquote>-->
+				Label naing possibilities：
+					<li>chinese for industry observation, jobs, and companies</li>
+					<li>Forgein products, terminology preffered in English</li>
+			</blockquote>-->
 			<!-- Label list -->
 			{% for tag in site.tags %}
 			<div class="one-tag-list">
@@ -58,9 +58,9 @@ nav_title: How it's going
 				</span>
 				{% for post in tag[1] %}
 				<!-- <li class="listing-item">
-		<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-		<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-		</li> -->
+				<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+				<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+				</li> -->
 				<div class="post-preview">
 					<a href="{{ post.url | prepend: site.baseurl }}">
 						<h2 class="post-title">
@@ -82,3 +82,5 @@ nav_title: How it's going
 		</div>
 	</div>
 </div>
+
+<!-- original file changed: 30 november 2020 -->
