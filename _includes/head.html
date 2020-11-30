@@ -34,7 +34,6 @@
 
     Safari Webpage Icon
     <link rel="lelinahs" href="{{ site.baseurl }}/img/favicon.icon"> -->
-
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
@@ -65,7 +64,16 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- ga & ba script hoook -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G66P795JX2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-G66P795JX2');
+    </script>
     <script></script>
 </head>
 
-<!-- original file changed: 30 november 2020-->
+<!-- original file changed: 30 november 2020 -->
