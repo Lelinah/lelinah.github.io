@@ -136,7 +136,7 @@ gitalk:
 # ba_track_id: <your track id> # 自己去百度统计注册，把你注册的track_id填这里
 
 # Google Analytics
-# ga_track_id: 'UA-xxxxxx-xx' # if you register with google account it will give u an id，Format: UA-xxxxxx-xx
-# ga_domain: zhangsan.top     # fill in custom domain name
+ga_track_id: 'G-G66P795JX2' # if you register with google account it will give u an id，Format: UA-xxxxxx-xx
+ga_domain: Lelinahs-Blog     # fll in custom domain name
 
 # original file changed: 30 november 2020
