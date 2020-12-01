@@ -4,7 +4,7 @@ title: "Minimal cost, perfect fits: I should learn sewing!"
 subtitle: Introduction
 date: 2020-12-01
 author: Lelinah
-header-img: img/oma1.jpg
+header-img: img/Oma3.jpg
 project_title: Project 1 - How to start sewing your own cloths
 catalog: true
 tags:
