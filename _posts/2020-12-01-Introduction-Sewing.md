@@ -44,7 +44,7 @@ For my first piece of clothing I wanna make a simple crop top, which I have been
 At the end of the month I want to make the midi skirt as a second piece and a more advanced challenge. 
 
 Because this is going to be the first project, I have to figure out how much is actually possible to learn in one month. I have this plan, because I want to lean as much as I can, but we just have to see how far I come.
-For the blog updates: I am also still new to that, so I have to figure out how often I will post and in what structure the posts will be. Either I will sort them after specific aspects of the projects or I will just make posts about my learning process with all the aspects mixed together. While I am working on the project, you can follow along real time, by following my Instagram: <Instagram/lelinahsblog.com>.
+For the blog updates: I am also still new to that, so I have to figure out how often I will post and in what structure the posts will be. Either I will sort them after specific aspects of the projects or I will just make posts about my learning process with all the aspects mixed together. While I am working on the project, you can follow along real time, by following my Instagram: <https://www.instagram.com/lelinahsblog>.
 With that said, I am exited to start the first project and hope some of you will follow along!
 
 Love,
