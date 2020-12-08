@@ -5,7 +5,7 @@ subtitle: Introduction
 date: 2020-12-01
 author: Lelinah
 header-img: img/Oma3.jpg
-project_title: Project 1 - How to start sewing your own cloths
+project_title: Project 1 - How to start sewing your own clothes
 catalog: true
 tags:
   - Sewing
