@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Made My First Piece Of Clothing From Scratch
-subtitle: Update 2
+subtitle: From fabrics to sewing patterns to finished tops
 date: 20-12-15
 author: Lelinah
 header-img: img/sewing/top_first_2.jpg
