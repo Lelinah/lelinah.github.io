@@ -86,8 +86,8 @@ Another point I wanted to talk about today, was the money I spent on this skirt.
 For the belt, I am wearing I had to add two more holes. Lucky me, my family is covered with nearly everything, including two punching pliers. As I was pushing those holes, I found out, that my great-grandpa owned a fashion house and my grandma worked there as a shop assistant. How was my whole family in the business of fashion? Isn’t it funny how you find out stuff about people you have known for your whole life, just by starting a random project at the age of 21…
 ##### The Second Try On The Top
 So I gave the top a second try and it is better, but the problems from the first fit haven’t been fully solved.
-![](/img/sewing/second_top_fit_front.jpg)
-![](/img/sewing/second_top_fit_back.jpg)
+![](/img/sewing/second_top_fit_front.JPG)
+![](/img/sewing/b.jpg)
 The neckline was an easy fix, but the fold on the back is still there. Not as big, but still there. I also wore the top for a longer time and notices, that the fabric stretches out easily, resulting in the top to slip up a little. Do I make the top tighter now or will that just stretch out the fabric more extreme? Should I just make it longer? I am not sure…
 
 I already told you I wanted a second layer of fabric, but now I noticed that it is a necessity, because you can't wear a bra underneath because of the back cutout. I was thinking about maybe adding some interfacing at the breast area, but I don’t know if that is comfortable to wear or would even look good. We will see. 
