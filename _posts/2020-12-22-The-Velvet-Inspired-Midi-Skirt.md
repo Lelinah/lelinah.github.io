@@ -77,9 +77,9 @@ The reason those needles broke could also have been that I didn’t use the righ
 Now that I am done, I think I could have made a 34 instead of a 36. The pattern is made for a more loose fit, but I really wanted that snatched look the skirts from Velvet gave the girls. 
 That’s why I will make the skirt tighter around the waist at some point, but for now, I am very happy with the turnout. I can tell you, my parents were impressed, my friends were impressed and I was impressed by how professional this skirt looks. See what you can do? You just have to follow instructions!
 <br> Here are some outfits I made with the skirt.
-![](/img/sewing/outfit_1.jpg)
-![](/img/sewing/outfit_2.jpg)
-![](/img/sewing/outfit_3.jpg)
+![](/img/sewing/outfit_1.JPG)
+![](/img/sewing/outfit_2.JPG)
+![](/img/sewing/outfit_3.JPG)
 Another point I wanted to talk about today, was the money I spent on this skirt. I remember in my first post I was saying how sewing your own clothes is super cheap, blablabla. It is not actually that cheap. I spend around 50 euro on all the materials. I still have a lot of leftovers though and I think the quality of the skirt is a better one than if I would have bought it for 50 € from Zara. 
 
 
@@ -87,7 +87,7 @@ For the belt, I am wearing I had to add two more holes. Lucky me, my family is c
 ##### The Second Try On The Top
 So I gave the top a second try and it is better, but the problems from the first fit haven’t been fully solved.
 ![](/img/sewing/second_top_fit_front.JPG)
-![](/img/sewing/b.jpg)
+![](/img/sewing/b.JPG)
 The neckline was an easy fix, but the fold on the back is still there. Not as big, but still there. I also wore the top for a longer time and notices, that the fabric stretches out easily, resulting in the top to slip up a little. Do I make the top tighter now or will that just stretch out the fabric more extreme? Should I just make it longer? I am not sure…
 
 I already told you I wanted a second layer of fabric, but now I noticed that it is a necessity, because you can't wear a bra underneath because of the back cutout. I was thinking about maybe adding some interfacing at the breast area, but I don’t know if that is comfortable to wear or would even look good. We will see. 
