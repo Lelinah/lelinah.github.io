@@ -10,6 +10,7 @@ catalog: true
 tags:
   - Sewing
   - DIY
+  - Crafting
 ---
 
 Since last week’s post, some things have happened. I moved forward with the plants set at the beginning of the month, but I also added some spontaneous projects in between. There are always new impressions that inspire me to try something out. Even though I’ve been doing some extra stuff, we are still totally on track. Actually, we are even getting things done faster than I thought. 
